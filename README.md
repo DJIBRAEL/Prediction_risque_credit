@@ -3,7 +3,7 @@
 Application web d'évaluation du risque de crédit, développée avec **Streamlit**, basée sur un modèle
 **XGBoost** entraîné sur le *Credit Risk Dataset* (32 581 emprunteurs).
 
-## 📁 Structure du projet
+##  Structure du projet
 
 ```
 streamlit_app/
@@ -19,7 +19,7 @@ streamlit_app/
     └── dataset_readable.csv       # Dataset nettoyé, lisible (page Exploration)
 ```
 
-## 🚀 Installation et lancement
+##  Installation et lancement
 
 1. Créer un environnement virtuel (recommandé) :
 ```bash
@@ -39,7 +39,7 @@ streamlit run app.py
 
 L'application s'ouvre automatiquement dans votre navigateur à l'adresse `http://localhost:8501`.
 
-## 🔄 Ré-entraîner le modèle
+##  Ré-entraîner le modèle
 
 Si vous voulez régénérer les artefacts (`model.pkl`, `scaler.pkl`, etc.) à partir du dataset brut :
 
@@ -52,14 +52,14 @@ python train_model.py
 
 Cela régénère tous les fichiers dans `model_artifacts/`.
 
-## 📄 Pages de l'application
+##  Pages de l'application
 
-- **🎯 Prédiction** : formulaire interactif pour estimer le risque de défaut d'un emprunteur (jauge de probabilité, niveau de risque)
-- **📊 Exploration des données** : tableau de bord avec KPIs et graphiques sur le portefeuille de crédit
-- **📈 Performance du modèle** : métriques, courbe ROC, matrice de confusion, importance des variables
-- **ℹ️ À propos** : présentation du projet et de la méthodologie
+- **  Prédiction** : formulaire interactif pour estimer le risque de défaut d'un emprunteur (jauge de probabilité, niveau de risque)
+- **  Exploration des données** : tableau de bord avec KPIs et graphiques sur le portefeuille de crédit
+- **  Performance du modèle** : métriques, courbe ROC, matrice de confusion, importance des variables
+- **  À propos** : présentation du projet et de la méthodologie
 
-## ⚠️ Avertissement
+##   Avertissement
 
 Ce projet est à but pédagogique. Les prédictions ne doivent pas être utilisées pour de véritables
 décisions de crédit.
