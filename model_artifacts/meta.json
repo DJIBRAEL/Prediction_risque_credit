@@ -1,0 +1,44 @@
+{
+  "num_cols_scaling": [
+    "anciennete_emploi",
+    "taux_interet",
+    "pret_pourcentage_revenu",
+    "anciennete_credit",
+    "revenu_annuel_log",
+    "montant_pret_log",
+    "note_pret_encodee"
+  ],
+  "ordre_notes": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+  ],
+  "statut_logement_categories": [
+    "MORTGAGE",
+    "OTHER",
+    "OWN",
+    "RENT"
+  ],
+  "motif_pret_categories": [
+    "DEBTCONSOLIDATION",
+    "EDUCATION",
+    "HOMEIMPROVEMENT",
+    "MEDICAL",
+    "PERSONAL",
+    "VENTURE"
+  ],
+  "metrics": {
+    "accuracy": 0.9127,
+    "precision": 0.793,
+    "recall": 0.8131,
+    "f1": 0.8029,
+    "auc": 0.9507,
+    "n_train": 25932,
+    "n_test": 6484,
+    "taux_defaut": 0.2187
+  }
+}
