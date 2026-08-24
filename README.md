@@ -1,4 +1,4 @@
-# CreditScore AI — Application Streamlit
+# Risque de Crédit  — Application Streamlit
 
 Application web d'évaluation du risque de crédit, développée avec **Streamlit**, basée sur un modèle
 **XGBoost** entraîné sur le *Credit Risk Dataset* (32 581 emprunteurs).
